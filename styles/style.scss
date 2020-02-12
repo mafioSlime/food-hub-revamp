@@ -1,4 +1,7 @@
-/* GENARAL */
+@import "./main";
+@import "./header";
+@import "./media";
+
 
 * {
   margin: 0;
@@ -9,8 +12,7 @@
 
 body {
   font-family: "Abel", sans-serif;
-  // background-color: #000;
-  // color: #eaeaea;
+
   background-color: #eaeaea;
   color: #333;
 }
@@ -26,162 +28,4 @@ a {
 
 img {
   width: 100%;
-}
-
-/* HEADER */
-
-header {
-  height: 100vh;
-  background-image: linear-gradient(to right bottom,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-    url("/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg");
-  background-position: right center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  color: #fff;
-
-  .logo {
-    text-align: center;
-    padding: 1rem;
-
-    i {
-      color: #ffc425;
-    }
-  }
-
-  .nav-links {
-    height: 10vh;
-    width: 30%;
-    background-color: #ae0001;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    height: 100vh;
-    border-radius: 40% 0 0 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
-    transition: 0.5s cubic-bezier(1, 0, 0, 1);
-
-    a {
-      color: #ffc425;
-      font-size: 1.4rem;
-
-      &:hover {
-        opacity: 0.7;
-      }
-    }
-  }
-}
-
-.hero-banner-title {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-}
-
-.hamburger {
-  position: absolute;
-  cursor: pointer;
-  top: 5%;
-  right: 5%;
-
-  div {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin-bottom: 7px;
-    transition: 0.2s ease-in;
-  }
-}
-
-/* HAMBURGER MENU ANIMATIONS */
-
-.active {
-  transform: translateX(-100%);
-}
-
-.toggle .line1 {
-  transform: rotateZ(-405deg) translate(-8px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotateZ(405deg) translate(-8px, -6px);
-}
-
-/* MAIN */
-
-main {
-  max-width: 90%;
-  margin: 6rem auto;
-
-  img {
-    height: 70%;
-  }
-}
-
-.main-container {
-  max-width: 900px;
-  margin: auto;
-
-  h3 {
-    font-size: 1.4rem;
-    margin: 1rem auto;
-    letter-spacing: 1px;
-
-  }
-
-  p {
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-  }
-
-  // display: grid;
-  // grid-template-columns: 1fr 1fr;
-}
-
-// MEDIA QUERY
-
-@media (min-width: 780px) {
-
-  .main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-
-
-
-    img {
-      height: 85%;
-    }
-
-    h3 {
-      font-size: 1.5rem;
-    }
-
-    p {
-      font-size: 1.2rem;
-    }
-
-  }
-}
-
-
-@media (max-width: 600px) {
-  header {
-    .nav-links {
-      width: 100%;
-    }
-  }
 }

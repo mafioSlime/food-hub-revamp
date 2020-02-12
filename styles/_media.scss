@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  header {
+    .nav-links {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 780px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+    img {
+      height: 85%;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}

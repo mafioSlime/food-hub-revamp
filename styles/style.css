@@ -1,32 +1,29 @@
-/* GENARAL */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  overflow-x: hidden;
+/* MAIN */
+main {
+  max-width: 90%;
+  margin: 6rem auto;
 }
 
-body {
-  font-family: "Abel", sans-serif;
-  background-color: #eaeaea;
-  color: #333;
+main img {
+  height: 70%;
 }
 
-li {
-  list-style: none;
+.main-container {
+  max-width: 900px;
+  margin: auto;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
+.main-container h3 {
+  font-size: 1.4rem;
+  margin: 1rem auto;
+  letter-spacing: 1px;
 }
 
-img {
-  width: 100%;
+.main-container p {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
 
-/* HEADER */
 header {
   height: 100vh;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg");
@@ -137,30 +134,10 @@ header .nav-links a:hover {
           transform: rotateZ(405deg) translate(-8px, -6px);
 }
 
-/* MAIN */
-main {
-  max-width: 90%;
-  margin: 6rem auto;
-}
-
-main img {
-  height: 70%;
-}
-
-.main-container {
-  max-width: 900px;
-  margin: auto;
-}
-
-.main-container h3 {
-  font-size: 1.4rem;
-  margin: 1rem auto;
-  letter-spacing: 1px;
-}
-
-.main-container p {
-  font-size: 1.2rem;
-  letter-spacing: 2px;
+@media (max-width: 600px) {
+  header .nav-links {
+    width: 100%;
+  }
 }
 
 @media (min-width: 780px) {
@@ -182,9 +159,30 @@ main img {
   }
 }
 
-@media (max-width: 600px) {
-  header .nav-links {
-    width: 100%;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
