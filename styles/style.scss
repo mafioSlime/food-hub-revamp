@@ -1,6 +1,9 @@
 @import "./main";
 @import "./header";
 @import "./media";
+@import "./section";
+@import "./footer";
+
 
 
 * {
@@ -12,7 +15,6 @@
 
 body {
   font-family: "Abel", sans-serif;
-
   background-color: #eaeaea;
   color: #333;
 }
