@@ -1,5 +1,5 @@
 footer {
-  height: 60vh;
+  height: 100vh;
   background: #111;
   color: #fff;
   display: flex;
@@ -7,6 +7,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+
   .day {
     margin-bottom: 0.5rem;
   }
@@ -21,18 +22,41 @@ footer {
     justify-content: space-around;
     width: 250px;
     padding: 0.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+
     i {
       cursor: pointer;
+    }
+
+
+  }
+
+  .newsletter {
+    margin-bottom: 1.4rem;
+    margin: auto;
+    padding: 0.5rem;
+
+    h3 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      text-align: center;
     }
   }
 
   .hours {
     border: 2px solid #fff;
     padding: 0.7rem;
+
     span {
       font-size: 1.3rem;
     }
+
     h3 {
       margin-bottom: 1rem;
       font-size: 1.5rem;
@@ -45,5 +69,8 @@ footer {
 @media (min-width: 700px) {
   footer {
     flex-direction: row;
+    height: 50vh;
+
+
   }
 }
