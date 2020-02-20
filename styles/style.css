@@ -144,7 +144,7 @@ header .nav-links a:hover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .menu-container {
     display: -ms-grid;
     display: grid;
@@ -512,14 +512,15 @@ input[type='text'] {
 }
 
 .menu-container img {
-  height: 400px;
+  width: 90%;
+  height: 300px;
   margin-bottom: 0.5rem;
 }
 
 .menu-food {
   margin-bottom: 2rem;
   padding: 0.2rem;
-  width: 350px;
+  max-width: 90%;
   margin: auto;
 }
 
@@ -530,6 +531,12 @@ input[type='text'] {
   width: 75px;
   border: 2px solid crimson;
   color: #fff;
+}
+
+@media (min-width: 900px) {
+  .menu-container img {
+    width: 60%;
+  }
 }
 
 * {

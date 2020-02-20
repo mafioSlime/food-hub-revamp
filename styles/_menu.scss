@@ -9,17 +9,17 @@
   }
 
   img {
-    height: 400px;
+    width: 90%;
+    height: 300px;
     margin-bottom: 0.5rem;
-
   }
-
 }
+
 
 .menu-food {
   margin-bottom: 2rem;
   padding: 0.2rem;
-  width: 350px;
+  max-width: 90%;
   margin: auto;
 
   .food-price {
@@ -29,5 +29,13 @@
     width: 75px;
     border: 2px solid crimson;
     color: #fff;
+  }
+}
+
+@media (min-width: 900px) {
+  .menu-container {
+    img {
+      width: 60%
+    }
   }
 }
