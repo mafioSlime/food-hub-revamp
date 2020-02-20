@@ -1,5 +1,5 @@
 footer {
-  height: 150vh;
+  height: 100vh;
   background: #111;
   color: #fff;
   display: flex;
@@ -67,7 +67,7 @@ footer {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   footer {
     flex-direction: row;
     height: 80vh;
