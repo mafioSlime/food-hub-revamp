@@ -1,0 +1,33 @@
+.menu-container {
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  img {
+    height: 400px;
+    margin-bottom: 0.5rem;
+
+  }
+
+}
+
+.menu-food {
+  margin-bottom: 2rem;
+  padding: 0.2rem;
+  width: 350px;
+  margin: auto;
+
+  .food-price {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    background-color: #000;
+    width: 75px;
+    border: 2px solid crimson;
+    color: #fff;
+  }
+}

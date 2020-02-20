@@ -1,5 +1,5 @@
 footer {
-  height: 100vh;
+  height: 150vh;
   background: #111;
   color: #fff;
   display: flex;
@@ -15,14 +15,15 @@ footer {
   .social-title {
     margin-bottom: 1rem;
     font-size: 1.5rem;
+
   }
 
   .social-icons {
     display: flex;
     justify-content: space-around;
-    width: 250px;
+    width: 80%;
     padding: 0.4rem;
-    margin-bottom: 2rem;
+    margin: auto 3rem;
 
     i {
       cursor: pointer;
@@ -32,8 +33,8 @@ footer {
   }
 
   .newsletter {
-    margin-bottom: 1.4rem;
-    margin: auto;
+
+    margin: 3rem 1.4rem;
     padding: 0.5rem;
 
     h3 {
@@ -69,8 +70,6 @@ footer {
 @media (min-width: 700px) {
   footer {
     flex-direction: row;
-    height: 50vh;
-
-
+    height: 80vh;
   }
 }
