@@ -420,25 +420,28 @@ input[type='text'] {
 
 .single-meal {
   margin: 30px auto;
-  width: 70%;
+  max-width: 80%;
+}
+
+.single-meal h1 {
+  margin: 1rem auto;
 }
 
 .single-meal img {
-  width: 300px;
-  margin: 15px;
+  width: 80%;
   border: 4px #48d39f solid;
   border-radius: 2px;
 }
 
 .single-meal-info {
-  margin: 20px;
   padding: 10px;
+  margin: 20px;
   border: 2px #48d39f dashed;
   border-radius: 5px;
 }
 
 .single-meal p {
-  margin: o;
+  margin: 0;
   letter-spacing: 0.5px;
   line-height: 1.5;
 }
@@ -458,6 +461,10 @@ input[type='text'] {
   font-weight: bold;
   padding: 5px;
   margin: 0 5px 5px 0;
+}
+
+.main h2 {
+  margin: 2rem auto;
 }
 
 @media (max-width: 800px) {
