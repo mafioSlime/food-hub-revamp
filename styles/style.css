@@ -146,10 +146,6 @@ section {
   position: relative;
 }
 
-.recipe-container img {
-  height: 100%;
-}
-
 .recipe-title {
   position: absolute;
   color: #fff;
