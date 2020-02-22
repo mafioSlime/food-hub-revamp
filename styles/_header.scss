@@ -10,6 +10,17 @@ header {
   position: relative;
   color: #fff;
 
+  small {
+    font-size: 1.3rem;
+
+  }
+
+  p {
+    padding: 0.5rem;
+    line-height: 2.2rem;
+    margin: 0.5rem auto;
+  }
+
   .logo {
     text-align: center;
     padding: 1rem;
@@ -17,6 +28,7 @@ header {
     i {
       color: crimson;
     }
+
   }
 
   .nav-links {
@@ -54,6 +66,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+
 }
 
 .hamburger {
